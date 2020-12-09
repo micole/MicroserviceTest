@@ -9,4 +9,11 @@ They use Flask/Terraform/Ansible/Nomad. Haven't used a lot of Nomad so lets use 
 
 Nice tutorial, lets use this as jumping off point: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html
 
+Error spinning up Env. It is because I have used python 3.9 (default download when you go to python) but they need 3.7. So all my packages are 3.9 and can't be installed in 3.7. Going to download/change that now.
+
+The requirements are for the flask app, you will need to install awsebcli to run eb commands
+
+Make sure you have your aws credentials where they should be for aws commands to run correctly
+
+
 
