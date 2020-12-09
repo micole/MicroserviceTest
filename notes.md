@@ -29,3 +29,6 @@ Got the application to reverse and uppercase, but not using the shoutcloud.io, s
 
 Ok, got shoutcloud to work for me. Going to clean up the application code a bit and then see if I can automate the EB work.
 
+Need to write down steps for how to spin up the EB via commandline.
+
+Currently editing WriteUp file for what my next steps would be. This file is for seeing my thoughts and work as I progressed, while that file would be the professional "Readme" and future steps of the project.

@@ -29,8 +29,7 @@ application = Flask(__name__)
 # add a rule for the index page.
 application.add_url_rule('/', 'index', (lambda: header_text + instructions + footer_text))
 
-# add a rule when the page is accessed with a name appended to the site
-# URL.
+# add a rule when the page is accessed with data appended to the site.
 application.add_url_rule('/v1/<data>', 'shout', (lambda data: v1_reverse_loud_return(data)))
 
 # run the app.
