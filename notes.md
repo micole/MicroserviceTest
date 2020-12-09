@@ -27,3 +27,5 @@ My view in almost everything I do can be boiled down to 3 steps: `get it working
 
 Got the application to reverse and uppercase, but not using the shoutcloud.io, so changing that now
 
+Ok, got shoutcloud to work for me. Going to clean up the application code a bit and then see if I can automate the EB work.
+
