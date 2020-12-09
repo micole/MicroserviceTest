@@ -15,5 +15,9 @@ The requirements are for the flask app, you will need to install awsebcli to run
 
 Make sure you have your aws credentials where they should be for aws commands to run correctly
 
+Had to recreate my Beanstalk environment because of the failure earlier. Hope this time it works, already burned almost 1.5 hours just trying to set this up.
 
+Getting a 502, most likely due to the load balancer not able to talk to the instance behind it.
+
+Forgot that EB expects the object instance to be called `application`, changing that now.
 
