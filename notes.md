@@ -19,5 +19,11 @@ Had to recreate my Beanstalk environment because of the failure earlier. Hope th
 
 Getting a 502, most likely due to the load balancer not able to talk to the instance behind it.
 
-Forgot that EB expects the object instance to be called `application`, changing that now.
+Heh, Forgot that EB expects the object instance to be called `application`, changing that now.
+
+Woot! Application is loading correctly now. The next choice is do I work on the application or the CI/CD? 
+
+My view in almost everything I do can be boiled down to 3 steps: `get it working, get it right, get it fast`. So following this the application isn't working yet and that is the most important part as the CI/CD I would argue is part of getting it right.
+
+Got the application to reverse and uppercase, but not using the shoutcloud.io, so changing that now
 

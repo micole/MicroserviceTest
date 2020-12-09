@@ -4,6 +4,10 @@ from flask import Flask
 def say_hello(username = "World"):
     return '<p>Hello %s!</p>\n' % username
 
+# Reverse loud text
+def v1_reverse_loud_return(data = "Test"):
+    return data[::-1].upper()
+
 # some bits of text for the page.
 header_text = '''
     <html>\n<head> <title>EB Flask Test</title> </head>\n<body>'''
@@ -23,8 +27,8 @@ application.add_url_rule('/', 'index', (lambda: header_text +
 
 # add a rule when the page is accessed with a name appended to the site
 # URL.
-application.add_url_rule('/<username>', 'hello', (lambda username:
-    header_text + say_hello(username) + home_link + footer_text))
+application.add_url_rule('/v1/<data>', 'hello', (lambda data:
+    header_text + v1_reverse_loud_return(data) + home_link + footer_text))
 
 # run the app.
 if __name__ == "__main__":
